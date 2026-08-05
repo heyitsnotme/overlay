@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+    margin: 0;
+    overflow: hidden;
+    background: transparent;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    overflow: hidden;
+}
+
+#scrollText {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    animation: scroll 25s linear infinite;
+}
+
+@keyframes scroll {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+</style>
+</head>
+
+<body>
+<div id="container">
+<div id="scrollText">
+
+💰 1 Spark | 2 Sound | 3 Small Spark | 10 +1 Speed | 15 Medium Spark | 20 Buff Drop | 50 Havoc | 80 Lite Havoc | 95 Speed 50 | 100 Small Apocalypse | 150 Apocalypse | 200 Good Loot | 250 Reset Speed | 300 Full Apocalypse | 400 Reward + Mayhem | 500 World Ender | 600 Ultimate Ender  
+
+💬 Commands: !lightning !mobs !tntrain !gravity !blind !confuse !nuke !disco !food !loot !endgravity
+
+</div>
+</div>
+</body>
+</html>
